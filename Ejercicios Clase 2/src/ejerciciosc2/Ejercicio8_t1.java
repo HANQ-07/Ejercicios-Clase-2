@@ -16,8 +16,6 @@ public class Ejercicio8_t1 {
     sal=horas*eur;
     
     System.out.println("El salario del empleado es de: "+sal);
-    
-    
-    
+      
 }   
 }
