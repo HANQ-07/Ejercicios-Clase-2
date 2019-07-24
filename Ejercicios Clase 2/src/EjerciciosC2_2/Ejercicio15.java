@@ -3,8 +3,8 @@ package EjerciciosC2_2;
 
 import java.util.Scanner;
 
-public class Ejercicio14 {
- public static void main(String[] args) {
+public class Ejercicio15 {
+  public static void main(String [] args){
       Scanner dato=new Scanner(System.in);
       
       int base, expo;
@@ -19,7 +19,9 @@ public class Ejercicio14 {
       for(int i=0; i<expo;i++){
      temp=resul*base;
      resul=temp;
+     int j=i+1;
+     System.out.println("potencia del "+j+"="+resul);
  }
-      System.out.println("El sesultado es: "+resul);
- }  
+      
+  }  
 }
