@@ -9,8 +9,8 @@ public class Ejercicio17 {
       int sig=0, n, aux;
       System.out.print("Ingrese un numero: ");
       n=dato.nextInt();
+     
       int suma=n;
-      
       for (int i=1;i<100;i++){
        suma=suma+sig;
        sig=n+i;
