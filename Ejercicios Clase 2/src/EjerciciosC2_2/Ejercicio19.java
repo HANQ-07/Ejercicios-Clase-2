@@ -22,7 +22,7 @@ public class Ejercicio19 {
         System.out.print(" ");
     }
     for(int j=0;j<i;j++){
-        System.out.print(simbol);
+        System.out.print(" "+simbol);
     }
     System.out.println("");
    } 

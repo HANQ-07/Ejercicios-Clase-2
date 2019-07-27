@@ -11,7 +11,7 @@ public class Ejercicio22 {
                  contador++;
              }
          }
-            if (contador<3){
+            if (contador<=2){
              System.out.println(i);
          }
      }
